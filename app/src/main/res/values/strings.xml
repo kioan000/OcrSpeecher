@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Ocr Translator</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_text_view_text">
+        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
+        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
+        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
+        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
+        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
+        Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrum exercitationem ullam corporis
+        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur
+    </string>
+    <string name="action_camera">
+        Click!
+    </string>
+    <string name="action_ocr">
+        Scan!
+    </string>
+    <string name="action_warp"> Warp!</string>
+    <string name="action_translate">Translate!</string>
+    <string name="title_activity_live_camera">Camera</string>
+    <string name="title_activity_edit_image">WarpImage</string>
+    <string name="title_activity_final_steps">Binarizer</string>
+    <string name="title_activity_text">ReadAndTranslate</string>
+    <string name="lang_italian">ita</string>
+    <string name="lang_english">eng</string>
+</resources>

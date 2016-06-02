@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".LiveCamActivity"
+    >
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/frame_camera_preview">
+
+        <view
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            class="com.intoo.ocrspeecher.MySurfaceView"
+            android:id="@+id/camera_preview"
+            android:focusableInTouchMode="true"
+            android:focusable="true"
+            android:clickable="true" />
+    </FrameLayout>
+
+</RelativeLayout>

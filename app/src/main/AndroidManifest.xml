@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.intoo.ocrspeecher" >
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <uses-features android:name="android.hardware.camera" />
+    <uses-features android:name="android.hardware.camera.autofocus" />
+    <uses-features android:name="android.hardware.camera.macro" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LiveCamActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditImageActivity"
+            android:label="@string/title_activity_edit_image"
+            android:parentActivityName=".LiveCamActivity"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.intoo.ocrspeecher.LiveCamActivity" />
+        </activity>
+        <activity
+            android:name=".FinalStepsActivity"
+            android:label="@string/title_activity_final_steps"
+            android:parentActivityName=".EditImageActivity"
+            android:screenOrientation="landscape" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.intoo.ocrspeecher.EditImageActivity" />
+        </activity>
+        <activity
+            android:name=".TextActivity"
+            android:label="@string/title_activity_text"
+            android:parentActivityName=".EditImageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.intoo.ocrspeecher.FinalStepsActivity" />
+        </activity>
+    </application>
+
+</manifest>
